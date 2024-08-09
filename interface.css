@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+}
+nav {
+  /* background-color: white; */
+  display: flex;
+  margin-left: 200px;
+  margin-right: 400px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgb(223, 205, 255);
+
+  /* justify-content: center; */
+}
+header {
+
+  height: 1000px;
+  padding-top: 20px;
+  background-image: url(images\ and\ icons/Fensea.jpg);
+}
+
+nav img {
+  width: 80px;
+  padding-left: 30px;
+}
+nav ul {
+  /* background-color: azure; */
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin-left: 700px;
+  font-size: 17px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.butt1 {
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+  border-style: none;
+}
+.food {
+ text-align: center;
+  background-color: rgb(223, 205, 255);
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  
+}
+.food ul {
+  list-style: none;
+ 
+}
+.food ul li{
+    margin-block: 100px;
+}
+.food ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+
+}
+.menu{
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    font-size: 30px;
+}
+.cancel{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
